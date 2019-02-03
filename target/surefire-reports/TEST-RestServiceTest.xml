@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.omio.spock.painting.CuratorSpockTest" time="0.469" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="RestServiceTest" time="0.148" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Users/adrianosilva/.sdkman/candidates/java/8.0.181-oracle/jre/lib"/>
@@ -64,5 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.omio.spock.painting.CuratorSpockTest" name="scenario: the curator presents his own collection" time="0.469"/>
+  <testcase classname="RestServiceTest" name="Test for proper REST service response" time="0.148"/>
+  <testcase classname="RestServiceTest" name="Test multiple requests[0]" time="0"/>
+  <testcase classname="RestServiceTest" name="Test multiple requests[1]" time="0"/>
+  <testcase classname="RestServiceTest" name="Test multiple requests[2]" time="0"/>
 </testsuite>

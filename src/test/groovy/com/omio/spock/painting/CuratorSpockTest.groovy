@@ -6,7 +6,7 @@ class CuratorSpockTest extends Specification {
     private def mockedPainting = Mock(Painting)
     private def curator = new Curator(mockedPainting)
 
-    def "scenario: the curator presents his collection"() {
+    def "scenario: the curator presents his own collection"() {
         given: "a expected result"
         def expectedDescription = "this painting is mocked"
 

@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbad9c22-70f7-4bb0-bcfb-287cdf6a444c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omio/spock/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omio/spock/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/painter/CandidoPortinariPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/painter/PabloPicassoPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/painter/Painter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/painter/PainterFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/omio/spock/painter/RomeroBrittoPainter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/omio/spock/PainterFactorySpockTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/omio/spock/PainterFactorySpockTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/omio/spock/PainterFactoryJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/omio/spock/PainterFactoryJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorSpockTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorSpockTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/omio/spock/painting/CuratorSpockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/omio/spock/painting/CuratorSpockTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +19,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorSpockTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/PainterFactorySpockTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#24#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/PainterFactorySpockTest.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/RestServiceTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state relative-caret-position="64">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
-                <element signature="e#24#77#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +118,9 @@
         <option value="$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorTest.groovy" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/omio/spock/painting/CuratorMockitoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/WSTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorSpockTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/RestServiceTest.groovy" />
       </list>
     </option>
   </component>
@@ -248,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549187751617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549193552626" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
     <property name="extract.method.default.visibility" value="private" />
@@ -286,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CuratorSpockTest">
+  <component name="RunManager" selected="JUnit.RestServiceTest.Test multiple requests">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.omio.spock.Application" />
       <module name="sandbox" />
@@ -296,37 +300,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuratorMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.omio.spock.painting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.omio.spock.painting" />
-      <option name="MAIN_CLASS_NAME" value="com.omio.spock.painting.CuratorMockitoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuratorMockitoTest.curatorShouldPresentHisPainting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.omio.spock.painting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.omio.spock.painting" />
-      <option name="MAIN_CLASS_NAME" value="com.omio.spock.painting.CuratorMockitoTest" />
-      <option name="METHOD_NAME" value="curatorShouldPresentHisPainting" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -346,44 +319,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuratorSpockTest.scenario: the curator presents his collection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.omio.spock.painting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.omio.spock.painting" />
-      <option name="MAIN_CLASS_NAME" value="com.omio.spock.painting.CuratorSpockTest" />
-      <option name="METHOD_NAME" value="scenario: the curator presents his collection" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceTest.Test for Proper REST service response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandbox" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestServiceTest" />
+      <option name="METHOD_NAME" value="Test for Proper REST service response" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestServiceTest.Test for proper REST service response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sandbox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.omio.spock.painting.painter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.omio.spock.painting.painter" />
-      <option name="MAIN_CLASS_NAME" value="com.omio.spock.painting.painter.CuratorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestServiceTest" />
+      <option name="METHOD_NAME" value="Test for proper REST service response" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceTest.Test multiple requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sandbox" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestServiceTest" />
+      <option name="METHOD_NAME" value="Test multiple requests" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestServiceTest.Test multiple requests" />
+        <item itemvalue="JUnit.RestServiceTest.Test for proper REST service response" />
+        <item itemvalue="JUnit.RestServiceTest" />
+        <item itemvalue="JUnit.RestServiceTest.Test for Proper REST service response" />
         <item itemvalue="JUnit.CuratorSpockTest" />
-        <item itemvalue="JUnit.CuratorMockitoTest" />
-        <item itemvalue="JUnit.CuratorSpockTest.scenario: the curator presents his collection" />
-        <item itemvalue="JUnit.CuratorMockitoTest.curatorShouldPresentHisPainting" />
-        <item itemvalue="JUnit.CuratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -401,46 +382,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CuratorMockitoTest_test - 2019.02.03 at 10h 03m 11s.xml">
-      <configuration name="CuratorMockitoTest.test" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_for_Proper_REST_service_response - 2019.02.03 at 11h 51m 46s.xml">
+      <configuration name="RestServiceTest.Test for Proper REST service response" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorMockitoTest - 2019.02.03 at 10h 04m 01s.xml">
-      <configuration name="CuratorMockitoTest" configurationId="JUnit" />
+    <history-entry file="RestServiceTest - 2019.02.03 at 11h 53m 16s.xml">
+      <configuration name="RestServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorMockitoTest_test - 2019.02.03 at 10h 05m 24s.xml">
-      <configuration name="CuratorMockitoTest.test" configurationId="JUnit" />
+    <history-entry file="RestServiceTest - 2019.02.03 at 11h 54m 27s.xml">
+      <configuration name="RestServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorMockitoTest_test - 2019.02.03 at 10h 06m 04s.xml">
-      <configuration name="CuratorMockitoTest.test" configurationId="JUnit" />
+    <history-entry file="RestServiceTest - 2019.02.03 at 11h 54m 43s.xml">
+      <configuration name="RestServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorMockitoTest_test - 2019.02.03 at 10h 07m 09s.xml">
-      <configuration name="CuratorMockitoTest.test" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_multiple_requests - 2019.02.03 at 11h 59m 28s.xml">
+      <configuration name="RestServiceTest.Test multiple requests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorSpockTest_scenario__the_curator_presents_his_collection - 2019.02.03 at 10h 10m 32s.xml">
-      <configuration name="CuratorSpockTest.scenario: the curator presents his collection" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_multiple_requests - 2019.02.03 at 12h 03m 01s.xml">
+      <configuration name="RestServiceTest.Test multiple requests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorSpockTest - 2019.02.03 at 10h 13m 09s.xml">
-      <configuration name="CuratorSpockTest" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_multiple_requests - 2019.02.03 at 12h 03m 18s.xml">
+      <configuration name="RestServiceTest.Test multiple requests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorMockitoTest - 2019.02.03 at 10h 13m 27s.xml">
-      <configuration name="CuratorMockitoTest" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_multiple_requests - 2019.02.03 at 12h 06m 46s.xml">
+      <configuration name="RestServiceTest.Test multiple requests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorSpockTest - 2019.02.03 at 10h 13m 38s.xml">
-      <configuration name="CuratorSpockTest" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_multiple_requests - 2019.02.03 at 12h 31m 58s.xml">
+      <configuration name="RestServiceTest.Test multiple requests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CuratorSpockTest - 2019.02.03 at 10h 20m 56s.xml">
-      <configuration name="CuratorSpockTest" configurationId="JUnit" />
+    <history-entry file="RestServiceTest_Test_multiple_requests - 2019.02.03 at 12h 32m 21s.xml">
+      <configuration name="RestServiceTest.Test multiple requests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26655897" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26655897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Terminal" weight="0.32673267" />
@@ -452,7 +434,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31400284" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58698726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,19 +454,19 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26655897" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.26655897" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32673267" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="5" weight="0.32956153" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.26732674" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.5884017" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -716,19 +698,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorSpockTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/PainterFactorySpockTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#24#77#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/PainterFactorySpockTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/omio/spock/painting/CuratorSpockTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/RestServiceTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
-            <element signature="e#24#77#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
