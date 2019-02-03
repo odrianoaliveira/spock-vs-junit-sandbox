@@ -1,6 +1,6 @@
 package com.omio.spock;
 
-import com.omio.spock.painter.PainterFactory;
+import com.omio.spock.painting.painter.PainterFactory;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

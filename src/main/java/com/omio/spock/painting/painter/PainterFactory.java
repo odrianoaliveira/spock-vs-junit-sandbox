@@ -1,4 +1,4 @@
-package com.omio.spock.painter;
+package com.omio.spock.painting.painter;
 
 import com.omio.spock.Name;
 import lombok.AccessLevel;

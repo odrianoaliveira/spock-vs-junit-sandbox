@@ -2,6 +2,7 @@ package com.omio.spock;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.util.Arrays;
 
@@ -12,16 +13,12 @@ public enum Name {
     ROMERO_BRITTO("Romero Britto"),
     UNKNOWN("Unknown");
 
-    private final String text;
-
-    @Override
-    public String toString() {
-        return text;
-    }
+    @Getter
+    private final String name;
 
     public static Name fromString(final String nameText) {
         return Arrays.stream(Name.values())
-                     .filter(name -> name.toString().equals(nameText))
+                     .filter(n -> n.getName().equals(nameText))
                      .findFirst()
                      .orElse(Name.UNKNOWN);
     }
